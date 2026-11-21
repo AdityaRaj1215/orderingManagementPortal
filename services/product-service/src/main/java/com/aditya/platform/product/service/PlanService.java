@@ -11,9 +11,9 @@ import java.util.UUID;
 @Service
 public class PlanService {
     private final PlanRepository planRepository;
-    private final PlanPriceRepository priceRepository;
+    private final ProductPriceRepository priceRepository;
 
-    public PlanService(PlanRepository planRepository, PlanPriceRepository priceRepository) {
+    public PlanService(PlanRepository planRepository, ProductPriceRepository priceRepository) {
         this.planRepository = planRepository;
         this.priceRepository = priceRepository;
     }
